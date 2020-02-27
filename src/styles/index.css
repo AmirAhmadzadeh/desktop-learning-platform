@@ -1,0 +1,31 @@
+
+@font-face{
+    font-family: "comic";
+    src: url('../assets/fonts/COMIC.TTF')
+}
+
+* {
+  font-family: comic,Verdana, Geneva, Tahoma, sans-serif ;
+  font-size: 10px; 
+  padding: 0  ;
+  margin: 0 ;
+}
+
+body {
+  background-color: #575757;
+}
+
+
+.app{ 
+    position: relative;
+}
+.container {
+  width: 85%;
+  margin: auto;
+  z-index: 1 ;
+}
+
+
+.lecture {
+  border: 0.725rem solid #3d3d3d;
+}

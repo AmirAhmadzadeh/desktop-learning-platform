@@ -1,0 +1,42 @@
+
+
+/* navigation  <nav/> */
+.navigation{ 
+    background-color: #3d3d3d;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+}
+
+
+
+/*  un ordered List ul   */
+
+.navigation .navigationList{
+    display: flex ;
+    padding: .5rem 0;
+} 
+
+
+
+/* #3d3d3d */
+.navigation .navigationList .navigationListItem{
+    
+    list-style: none ;
+    cursor: pointer ;
+    margin-right: 2.5rem ;
+} 
+
+
+.navigation .navigationList .navigationListItem .navigationListItemLink{
+    
+    text-decoration: none ;
+    color: white ;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+} 
+
+
+.navigation .navigationList .navigationListItem .navigationListItemLink:hover{
+   color: chocolate;
+}   
